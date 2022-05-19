@@ -8,6 +8,6 @@ var i =-1;
 function myFunction() {
     i++
 
-    if (i=== 6){i=0}
+    if (i=== 7){i=0}
     answer.style.color= colors[i]
 }
