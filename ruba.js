@@ -4,6 +4,10 @@ var answer = document.body.getElementsByTagName('h1')[0]
 var ask = document.body.getElementsByTagName('button')[0]
 
 
+var i =-1;
 function myFunction() {
-    answer.style.color= colors[Math.floor(Math.random() * 10)]
+    i++
+
+    if (i=== 6){i=0}
+    answer.style.color= colors[i]
 }
